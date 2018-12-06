@@ -83,7 +83,9 @@ public func perform(Target targetName: String, actionName: String, params: Media
 #### 7.模块间调用的流程图：
 <img src="https://upload-images.jianshu.io/upload_images/2026287-68a3846717f57020.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width=800 height=400 />
 
-#### 8.总结：
+#### 8.集成，已经上传至DDKit
+
+#### 9.总结：
 
  **模块化只是一个架构思路，如何在不同模块之间建立一个桥梁。一千个开发者心中有一千个Mediator的方式。所完成的任务归根结底都是为了减少模块间的耦合，及处理模块间的数据传递途径**
 <br/>
