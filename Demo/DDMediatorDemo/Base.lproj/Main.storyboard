@@ -36,11 +36,20 @@
                                     <action selector="requestAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vRO-Ex-Rlg"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WrJ-Lc-MFJ">
+                                <rect key="frame" x="89" y="282" width="166" height="30"/>
+                                <state key="normal" title="获取TestSDK中的控制器"/>
+                                <connections>
+                                    <action selector="getTestVCAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w54-wD-uLT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Tw2-a6-guc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="76" id="DDt-LU-MY5"/>
                             <constraint firstItem="Tw2-a6-guc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="113" id="JAN-bD-Xvy"/>
+                            <constraint firstItem="WrJ-Lc-MFJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="89" id="S4D-QU-zJe"/>
+                            <constraint firstItem="WrJ-Lc-MFJ" firstAttribute="top" secondItem="eMR-6l-TDW" secondAttribute="bottom" constant="98" id="Sp0-Eb-Wk3"/>
                             <constraint firstItem="eMR-6l-TDW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="129" id="ock-CM-fRL"/>
                             <constraint firstItem="eMR-6l-TDW" firstAttribute="top" secondItem="Tw2-a6-guc" secondAttribute="bottom" constant="28" id="rgc-L0-asP"/>
                         </constraints>

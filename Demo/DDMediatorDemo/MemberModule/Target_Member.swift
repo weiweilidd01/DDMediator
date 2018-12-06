@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import DDKit
 /// 提供服务的模块。创建一个Target对象,以Target开头加以区别，并继承NSObject，并实现需要提供的方法,
 //每个方法前，必须要加@objc selector调用必须要
 //定义的方法加以下相同的参数
@@ -30,7 +30,7 @@ public class Target_Member: NSObject {
         
         //模拟请求数据延时返回
         DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-            model.callBack?("sdfsdf")
+            model.callBack?("获取网络数据回调")
         }
     }
 }

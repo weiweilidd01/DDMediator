@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import DDKit
 //需要调整模块的名字 Target_Member, 请省略Target_
 let kMediatorTarget = "Member"
 
@@ -34,4 +35,26 @@ extension DDMediator {
         }
     }
     
+}
+
+
+
+
+
+
+//TestSDK模块的请求方法
+let kTestSDKTarget = "sdk"
+let kGetTestViewControllerAction = "getTestViewController:"
+
+extension DDMediator {
+    
+    public func presentTestSDK(_ complete: @escaping (UIViewController?)->()) {
+        //切记：
+        //调用SDK模块，获取pod管理的模块，params中必须要传命名空间的名字。
+        //比如你的sdk叫做TestSDK，请传入"TestSDK"
+        //比如你pod管理的模块叫做PayModule。请传入"PayModule"
+        perform(Target: kTestSDKTarget, actionName: kGetTestViewControllerAction, params: [kMediatorTargetModuleName: "TestSDK"]) { (vc) in
+            complete(vc as? UIViewController)
+        }
+    }
 }

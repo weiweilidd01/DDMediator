@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6DFA94298956E98BCE6D70F /* Pods_TestSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8552BC8E4A2CB09F7F7A0542 /* Pods_TestSDK.framework */; };
 		CEAC90A421B7A6B0002363CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC90A321B7A6B0002363CF /* AppDelegate.swift */; };
 		CEAC90A621B7A6B0002363CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC90A521B7A6B0002363CF /* ViewController.swift */; };
 		CEAC90A921B7A6B0002363CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAC90A721B7A6B0002363CF /* Main.storyboard */; };
@@ -14,18 +15,18 @@
 		CEAC90AE21B7A6B1002363CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAC90AC21B7A6B1002363CF /* LaunchScreen.storyboard */; };
 		CEAC90B921B7A6B1002363CF /* DDMediatorDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC90B821B7A6B1002363CF /* DDMediatorDemoTests.swift */; };
 		CEAC90C421B7A6B1002363CF /* DDMediatorDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC90C321B7A6B1002363CF /* DDMediatorDemoUITests.swift */; };
-		CEAC90D321B7A6FA002363CF /* DDMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC90D221B7A6FA002363CF /* DDMediator.swift */; };
 		CEAC90D621B7B710002363CF /* Target_Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC90D521B7B710002363CF /* Target_Member.swift */; };
 		CEAC90D921B7B781002363CF /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC90D721B7B781002363CF /* BViewController.swift */; };
 		CEAC90DA21B7B781002363CF /* BViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEAC90D821B7B781002363CF /* BViewController.xib */; };
 		CEAC90DC21B7B805002363CF /* DDMediator+MoudleAAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC90DB21B7B805002363CF /* DDMediator+MoudleAAction.swift */; };
-		CEAC90DF21B7D3BF002363CF /* MediatorParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC90DE21B7D3BF002363CF /* MediatorParams.swift */; };
 		CEAC90EE21B7DCBC002363CF /* TestSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAC90E521B7DCBB002363CF /* TestSDK.framework */; };
 		CEAC90F521B7DCBC002363CF /* TestSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC90F421B7DCBC002363CF /* TestSDKTests.swift */; };
 		CEAC90F721B7DCBC002363CF /* TestSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = CEAC90E721B7DCBB002363CF /* TestSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CEAC90FA21B7DCBC002363CF /* TestSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAC90E521B7DCBB002363CF /* TestSDK.framework */; };
 		CEAC90FB21B7DCBC002363CF /* TestSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEAC90E521B7DCBB002363CF /* TestSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CEAC910421B7DCF8002363CF /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC910321B7DCF8002363CF /* TestViewController.swift */; };
+		CEAC911421B8CB0D002363CF /* Target_sdk.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC911321B8CB0D002363CF /* Target_sdk.swift */; };
+		CF44A969468803FBE1FF4F17 /* Pods_DDMediatorDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C3F274F80662D0AB180838B /* Pods_DDMediatorDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4C81A39DC3FD390526423A10 /* Pods-DDMediatorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDMediatorDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DDMediatorDemo/Pods-DDMediatorDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8552BC8E4A2CB09F7F7A0542 /* Pods_TestSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C3F274F80662D0AB180838B /* Pods_DDMediatorDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDMediatorDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8CC64A7535BF85BB2FA4166 /* Pods-TestSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestSDK/Pods-TestSDK.release.xcconfig"; sourceTree = "<group>"; };
 		CEAC90A021B7A6B0002363CF /* DDMediatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDMediatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAC90A321B7A6B0002363CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEAC90A521B7A6B0002363CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -94,12 +99,10 @@
 		CEAC90BF21B7A6B1002363CF /* DDMediatorDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDMediatorDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAC90C321B7A6B1002363CF /* DDMediatorDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDMediatorDemoUITests.swift; sourceTree = "<group>"; };
 		CEAC90C521B7A6B1002363CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEAC90D221B7A6FA002363CF /* DDMediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDMediator.swift; sourceTree = "<group>"; };
 		CEAC90D521B7B710002363CF /* Target_Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target_Member.swift; sourceTree = "<group>"; };
 		CEAC90D721B7B781002363CF /* BViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
 		CEAC90D821B7B781002363CF /* BViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BViewController.xib; sourceTree = "<group>"; };
 		CEAC90DB21B7B805002363CF /* DDMediator+MoudleAAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DDMediator+MoudleAAction.swift"; sourceTree = "<group>"; };
-		CEAC90DE21B7D3BF002363CF /* MediatorParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediatorParams.swift; sourceTree = "<group>"; };
 		CEAC90E521B7DCBB002363CF /* TestSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAC90E721B7DCBB002363CF /* TestSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestSDK.h; sourceTree = "<group>"; };
 		CEAC90E821B7DCBB002363CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -107,6 +110,9 @@
 		CEAC90F421B7DCBC002363CF /* TestSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSDKTests.swift; sourceTree = "<group>"; };
 		CEAC90F621B7DCBC002363CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEAC910321B7DCF8002363CF /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		CEAC911321B8CB0D002363CF /* Target_sdk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target_sdk.swift; sourceTree = "<group>"; };
+		E02B99324C279197B1BA6C6D /* Pods-TestSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestSDK/Pods-TestSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		E472CF7BA607FBF5EB9C11FE /* Pods-DDMediatorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDMediatorDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DDMediatorDemo/Pods-DDMediatorDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEAC90FA21B7DCBC002363CF /* TestSDK.framework in Frameworks */,
+				CF44A969468803FBE1FF4F17 /* Pods_DDMediatorDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +143,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6DFA94298956E98BCE6D70F /* Pods_TestSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +158,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21E9C95D867EA38CE07D1387 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C3F274F80662D0AB180838B /* Pods_DDMediatorDemo.framework */,
+				8552BC8E4A2CB09F7F7A0542 /* Pods_TestSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63D5383B10C6C776DFAA59B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C81A39DC3FD390526423A10 /* Pods-DDMediatorDemo.debug.xcconfig */,
+				E472CF7BA607FBF5EB9C11FE /* Pods-DDMediatorDemo.release.xcconfig */,
+				E02B99324C279197B1BA6C6D /* Pods-TestSDK.debug.xcconfig */,
+				B8CC64A7535BF85BB2FA4166 /* Pods-TestSDK.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CEAC909721B7A6B0002363CF = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +187,8 @@
 				CEAC90E621B7DCBB002363CF /* TestSDK */,
 				CEAC90F321B7DCBC002363CF /* TestSDKTests */,
 				CEAC90A121B7A6B0002363CF /* Products */,
+				63D5383B10C6C776DFAA59B0 /* Pods */,
+				21E9C95D867EA38CE07D1387 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -178,8 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				CEAC90DD21B7B8EE002363CF /* ModuleA */,
-				CEAC90D421B7B6D8002363CF /* ModuleMember */,
-				CEAC90D121B7A6D3002363CF /* DDMediator */,
+				CEAC90D421B7B6D8002363CF /* MemberModule */,
 				CEAC90A321B7A6B0002363CF /* AppDelegate.swift */,
 				CEAC90A721B7A6B0002363CF /* Main.storyboard */,
 				CEAC90AA21B7A6B1002363CF /* Assets.xcassets */,
@@ -207,23 +236,14 @@
 			path = DDMediatorDemoUITests;
 			sourceTree = "<group>";
 		};
-		CEAC90D121B7A6D3002363CF /* DDMediator */ = {
-			isa = PBXGroup;
-			children = (
-				CEAC90D221B7A6FA002363CF /* DDMediator.swift */,
-				CEAC90DE21B7D3BF002363CF /* MediatorParams.swift */,
-			);
-			path = DDMediator;
-			sourceTree = "<group>";
-		};
-		CEAC90D421B7B6D8002363CF /* ModuleMember */ = {
+		CEAC90D421B7B6D8002363CF /* MemberModule */ = {
 			isa = PBXGroup;
 			children = (
 				CEAC90D521B7B710002363CF /* Target_Member.swift */,
 				CEAC90D721B7B781002363CF /* BViewController.swift */,
 				CEAC90D821B7B781002363CF /* BViewController.xib */,
 			);
-			path = ModuleMember;
+			path = MemberModule;
 			sourceTree = "<group>";
 		};
 		CEAC90DD21B7B8EE002363CF /* ModuleA */ = {
@@ -241,6 +261,7 @@
 				CEAC90E721B7DCBB002363CF /* TestSDK.h */,
 				CEAC90E821B7DCBB002363CF /* Info.plist */,
 				CEAC910321B7DCF8002363CF /* TestViewController.swift */,
+				CEAC911321B8CB0D002363CF /* Target_sdk.swift */,
 			);
 			path = TestSDK;
 			sourceTree = "<group>";
@@ -272,10 +293,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEAC90C821B7A6B1002363CF /* Build configuration list for PBXNativeTarget "DDMediatorDemo" */;
 			buildPhases = (
+				0AA7627D5E2D1713A92F378B /* [CP] Check Pods Manifest.lock */,
 				CEAC909C21B7A6B0002363CF /* Sources */,
 				CEAC909D21B7A6B0002363CF /* Frameworks */,
 				CEAC909E21B7A6B0002363CF /* Resources */,
 				CEAC90FF21B7DCBC002363CF /* Embed Frameworks */,
+				5F2D9B9001BDD7C6431CA92D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -327,6 +350,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEAC90FC21B7DCBC002363CF /* Build configuration list for PBXNativeTarget "TestSDK" */;
 			buildPhases = (
+				67013E07898E523A1C739885 /* [CP] Check Pods Manifest.lock */,
 				CEAC90E021B7DCBB002363CF /* Headers */,
 				CEAC90E121B7DCBB002363CF /* Sources */,
 				CEAC90E221B7DCBB002363CF /* Frameworks */,
@@ -455,6 +479,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0AA7627D5E2D1713A92F378B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DDMediatorDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F2D9B9001BDD7C6431CA92D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DDMediatorDemo/Pods-DDMediatorDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DDKit/DDKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DDKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DDMediatorDemo/Pods-DDMediatorDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67013E07898E523A1C739885 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CEAC909C21B7A6B0002363CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -462,9 +557,7 @@
 			files = (
 				CEAC90DC21B7B805002363CF /* DDMediator+MoudleAAction.swift in Sources */,
 				CEAC90D621B7B710002363CF /* Target_Member.swift in Sources */,
-				CEAC90D321B7A6FA002363CF /* DDMediator.swift in Sources */,
 				CEAC90A621B7A6B0002363CF /* ViewController.swift in Sources */,
-				CEAC90DF21B7D3BF002363CF /* MediatorParams.swift in Sources */,
 				CEAC90D921B7B781002363CF /* BViewController.swift in Sources */,
 				CEAC90A421B7A6B0002363CF /* AppDelegate.swift in Sources */,
 			);
@@ -491,6 +584,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEAC910421B7DCF8002363CF /* TestViewController.swift in Sources */,
+				CEAC911421B8CB0D002363CF /* Target_sdk.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -670,6 +764,7 @@
 		};
 		CEAC90C921B7A6B1002363CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C81A39DC3FD390526423A10 /* Pods-DDMediatorDemo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -689,6 +784,7 @@
 		};
 		CEAC90CA21B7A6B1002363CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E472CF7BA607FBF5EB9C11FE /* Pods-DDMediatorDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -786,6 +882,7 @@
 		};
 		CEAC90FD21B7DCBC002363CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E02B99324C279197B1BA6C6D /* Pods-TestSDK.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -816,6 +913,7 @@
 		};
 		CEAC90FE21B7DCBC002363CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8CC64A7535BF85BB2FA4166 /* Pods-TestSDK.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
