@@ -1,7 +1,7 @@
 # DDMediator --模块(业务)间通信中间者
 
 本组件只适用于模块(业务)间的通信，作为一个中间媒介，减少模块间的耦合关系<br/>
-控制器与控制器之间的解耦请使用DDRoute<br/>
+控制器与控制器之间的解耦请使用DDRouter<br/>
 具体的使用请参照[demo](https://github.com/weiweilidd01/DDMediator.git)<br/>
 #### 1.app中常见的层级结构
 <img src="https://upload-images.jianshu.io/upload_images/2026287-16311aa4a72a70a6.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width=400 height=500 />
